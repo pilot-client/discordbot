@@ -1,0 +1,24 @@
+{
+  "name": "fortnite-shop-discord-bot",
+  "version": "1.0.0",
+  "description": "A simple bot that calls Fortnite-API to retrieve ItemShop",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEEROL/Fortnite-Shop-Discord-Bot.git"
+  },
+  "author": "NEEROL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NEEROL/Fortnite-Shop-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/NEEROL/Fortnite-Shop-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "fortnite-api-io": "^1.4.0",
+    "jimp": "^0.12.1"
+  }
+}
