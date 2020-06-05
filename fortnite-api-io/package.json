@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      "fortnite-api-io@1.4.0",
+      "C:\\Users\\fonze\\Desktop\\Fortnite BR"
+    ]
+  ],
+  "_from": "fortnite-api-io@1.4.0",
+  "_id": "fortnite-api-io@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-jDU6qfeUi0ITQnWNdAGoJvv3Unnh4O5y+FVk7UoIDsLPjkMtqv0qMdDJ1+Fxm77IIj9PnroiwvUR6f6UD2X1Gw==",
+  "_location": "/fortnite-api-io",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "fortnite-api-io@1.4.0",
+    "name": "fortnite-api-io",
+    "escapedName": "fortnite-api-io",
+    "rawSpec": "1.4.0",
+    "saveSpec": null,
+    "fetchSpec": "1.4.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fortnite-api-io/-/fortnite-api-io-1.4.0.tgz",
+  "_spec": "1.4.0",
+  "_where": "C:\\Users\\fonze\\Desktop\\Fortnite BR",
+  "author": {
+    "name": "Ben Hawley"
+  },
+  "bugs": {
+    "url": "https://github.com/benhawley7/fortnite-api-io/issues"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "description": "Nodejs module for making requests to fortniteapi.io",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nyc": "^15.0.0",
+    "tape": "^4.13.2"
+  },
+  "homepage": "https://github.com/benhawley7/fortnite-api-io#readme",
+  "keywords": [
+    "fortnite",
+    "fortnite-api",
+    "fortnite-api-io"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fortnite-api-io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benhawley7/fortnite-api-io.git"
+  },
+  "scripts": {
+    "test": "tape test",
+    "test:coverage": "nyc tape test"
+  },
+  "version": "1.4.0"
+}
